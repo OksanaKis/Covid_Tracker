@@ -1,9 +1,10 @@
 import './App.css';
+import CovidData from "./CovidData";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <CovidData></CovidData>
     </div>
   );
 }
